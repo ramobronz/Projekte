@@ -1,0 +1,30 @@
+Kaufvertrag
+	Verkäufer: 
+	Vorname: Joachim
+	Nachname: Bredull
+	AusweisNr: 9876543210
+	Adresse: Adresse 
+	Straße: Auch zu Hause
+	HausNr: 7
+	Plz: 28195
+	Ort: Bremen
+	
+	Käufer: 
+	Vorname: Klaus
+	Nachname: Brandt
+	AusweisNr: 0123456789
+	Adresse: Adresse 
+	Straße: Zu Hause
+	HausNr: 3a
+	Plz: 28199
+	Ort: Bremen
+	
+	Ware: Ware 
+	Bezeichnung: 'Laptop
+	Beschreibung: Supe krasses Gaming-Laptop
+	Preis: 250.0
+	Besonderheiten: [Tasche, Gaming-Maus]
+	Mängel: [Ladekabel fehlt, Touchpad defekt]
+	
+	Zahlungs Modalitaeten: Privater Barverkauf
+	

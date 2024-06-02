@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Hier gibt's noch jede Menge zu tun!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="../styles/mystyle_MaTA.css" rel="stylesheet">
+    <script src="../scripts/script_MaTA.js" defer id="script"></script>
+</head>
+<body>
+<section class="m-0">
+    <div id="header" class="fs-1 text-center">
+        Ahmeds coole Website
+    </div>
+    <div id="person" class="m-0 p-4">
+        <ul>
+            <li>
+                Ahmed Meyer
+            </li>
+            <li>
+                Geburtsdatum: 01.01.2004
+            </li>
+            <li>
+                TikTok: ahmed_the_boss
+            </li>
+            <li>
+                <span class="material-icons">mail</span> Ahmed2007@gmx.de
+            </li>
+            <li>
+                Hobbys: Fußball, chillen, noch mehr chillen
+            </li>
+            <li>
+                Lieblingsserie: <a href="https://www.fernsehserien.de/the-walking-dead" target="_blank">The Walking
+                Dead</a>
+            </li>
+        </ul>
+    </div>
+    <div id="picture" class="m-0 p-5 d-flex align-items-center">
+        <a href="https://de.wikipedia.org/wiki/Oculus_Rift_S" target="_blank"><img class="image_round"
+                                                                                   src="../pictures/ichMitRiftS.jpg"
+                                                                                   alt="Ich beim Gaming mit meiner Rift S"></a>
+    </div>
+    <div class="content m-0 pt-1 p-3">
+        <h2>Ahmed hat Lieblingssongs</h2>
+        <table class="table">
+            <thead class="">
+            <tr>
+                <th>Interpret</th>
+                <th>Song</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr class="table-secondary">
+                <td>imagine Dragons</td>
+                <td>Enemy</td>
+            </tr>
+            <tr class="table-light">
+                <td>Julian Sommer</td>
+                <td>Dicht im Flieger</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>Sido</td>
+                <td>Mit dir</td>
+            </tr>
+            </tbody>
+        </table>
+        <!-- TODO: Tabelle anlegen! -->
+    </div>
+    <div class="content m-0">
+        <h2>Ahmed hat Familie</h2>
+        <div class="m-1 d-flex justify-content-between">
+            <img src="../pictures/friedrich.jpg" alt="mein Bruder Friedrich">
+            <img src="../pictures/julia.jpg" alt="meine Mutter">
+            <img src="../pictures/willi.jpg" alt="mein Bruder Wilhelm">
+            <img src="../pictures/cicilia.jpg" alt="meine Oma">
+        </div>
+    </div>
+    <div class="content m-1 p-1">
+        <h2>Was Ahmed schon immer mal loswerden wollte</h2>
+        <p>Also Leute,</p>
+        <p>was mich ja echt nervt ist Folgendes: Mich <strong>ärgert frühes Aufstehen </strong> ja total.
+            Warum kann die Schule nicht erst um 10 h losgehen? Oder was wäre mit Gleitzeit? Ich meine, wenn
+            man eine bestimmte Anzahl an Stunden am Tag in die Schule muss, aber kommen kann, wenn man möchte...</p>
+    </div>
+    <div class="content m-0 pt-1 p-1">
+        <h2>Ahmed kann für dich rechnen</h2>
+        <form>
+            <div class="pt-1">
+                <label for="sie_ihn">Wie gut Sie dich findet - Schulnote zwischen 1 und 6</label>
+                <input type="number" id="sie_ihn" value="javaScript">
+
+                <!-- TODO: Label und Input anlegen -->
+            </div>
+            <div class="pt-1">
+                <label for="er_sie">WIe gut du sie findest - Schulnote zwischen 1 und 6</label>
+                <input type="number" id="er_sie" min="1" max="6" value="javaScript">
+                <!-- TODO: Label und Input anlegen -->
+            </div>
+            <div class="pt-1">
+                <button type="button" onclick="durchschnitt()">Liebesglück ermitteln</button>
+            </div>
+            <div class="pt-1">
+                <label for="ergebnis">Eure Glücks-Chance - Schulnote zwischen 1 und 6:</label>
+                <output id="ergebnis"></output>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+</html>

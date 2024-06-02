@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arbeit/Arbeit.iml" filepath="$PROJECT_DIR$/Arbeit/Arbeit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HTML/HTML.iml" filepath="$PROJECT_DIR$/HTML/HTML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOClass/IOClass.iml" filepath="$PROJECT_DIR$/IOClass/IOClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KaufvertragMitDaoMA22/KaufvertragMitDaoMA22.iml" filepath="$PROJECT_DIR$/KaufvertragMitDaoMA22/KaufvertragMitDaoMA22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projekt 1/MeinErstesProjekt.iml" filepath="$PROJECT_DIR$/Projekt 1/MeinErstesProjekt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Porgrammierung2.iml" filepath="$PROJECT_DIR$/.idea/Porgrammierung2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
+    </modules>
+  </component>
+</project>

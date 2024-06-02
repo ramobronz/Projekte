@@ -1,0 +1,3 @@
+Vertragspartner; Name; Straße;PLZ;Ort
+Verkäufer;Bredull, Joachim;Auch zu Hause 7;28195;Bremen
+Käufer;Brandt, Klaus;Zu Hause 3a;28199;Bremen

@@ -1,0 +1,92 @@
+/* Füge dies zu deinem bestehenden CSS-Stil hinzu oder passe es an */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.calculator-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.custom-checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.custom-checkbox::after {
+    content: "\2713";
+    font-size: 16px;
+    color: #4CAF50;
+    position: absolute;
+    display: none;
+}
+
+.custom-checkbox:checked::after {
+    display: block;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.result {
+    font-weight: bold;
+    color: #4CAF50;
+    text-align: center;
+}
+
+.calculator-section {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.calculator-section h3 {
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="../styles/myStyleScreen.css" media="screen">
+
+    <meta name="Autor" content="Mohammad Alrajab">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Fahrtkostenrechner</title>
+    <script src="../scripts/myScripts.js" defer></script>
+</head>
+<body>
+<h1>Leih-und-fahr Bootsvermietung </h1>
+<h2>Fahrtkostenrechner für Tagesmiete </h2>
+<div>
+    <img src="../content/pictures/key.jpg" height="150" width="208" alt="schlussel"/>
+    <img src="../content/pictures/calculator.jpg" height="150" width="355" alt="calculator"/>
+</div>
+<p>Berechnen Sie hier vor der Fahrt Ihre voraussichtliche fahrkosten für mietdauern bis max. 24 Stunden.</p>
+<p>Informationen zu Mietdauern länger als 24 Stunden erhalten sie hier: <a href="/content/documents/mietgebuehren.pdf">Mietgebühren-Liste</a>
+</p>
+<form>
+    <h3>Fahrkostenrechner</h3>
+    <div>
+        <label for="fahrtstrecke">Voraussichtlich zurückgelegte <strong>Fahrstrecke in km:</strong></label>
+        <input type="number" id="fahrtstrecke" name="fahrtstrecke" min="1">
+    </div>
+    <div>
+        <label for="mietdauer">voraussichtliche Mietdauer in <strong>Stunden:</strong></label>
+        <input type="number" id="mietdauer" name="mietdauer" min="1" max="24">
+    </div>
+    <div>
+        <legend>gewählter<strong> Bootstype:</strong></legend>
+    </div>
+    <div>
+        <fieldset>
+            <label>
+                <input type="radio" id="segelboot" name="boottyp" checked>
+                <strong>Segelboot</strong></label>
+            <label>
+                <input type="radio" id="motorboot" name="boottyp">
+                <strong>Motorboot</strong></label>
+        </fieldset>
+    </div>
+    <div>
+        <button type="button" onclick="fahrtkostenberechnung()">Fahrkosten berechnen</button>
+    </div>
+    <output id="ergebnis"></output>
+</form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Dialog</title>
+</head>
+<body>
+<script>
+    let attempts = 0;
+    const fremdword = "dynamischer Quellcodemanipulierer";
+    function askQuestion() {
+        const userAnswer = prompt("1. Versuch: Was bedeutet DQM?", "dynamischer");
+
+        if (userAnswer !== fremdword && attempts < 2) {
+            attempts++;
+            askQuestion();
+        }
+        else if (userAnswer !== fremdword && attempts === 2) {
+            document.body.textContent = "Kein Zutritt für Volltrottel!";
+        } else {
+            window.location.href = "http://www.szut.de/";
+        }
+    }
+    askQuestion();
+</script>
+</body>
+</html>

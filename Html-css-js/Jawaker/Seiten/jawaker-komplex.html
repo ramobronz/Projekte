@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/komlexStyle.css">
+    <title>Komplex Rechner</title>
+    <script src="../JS/rechnung-trixKomplex.js"></script>
+    <script src="../JS/taschenrechner.js"></script>
+</head>
+
+<body>
+<form id="rechnerForm" class="calculator-form">
+    <h1>Komplex Rechner</h1>
+    <div class="input-group">
+        <label for="konig">König</label>
+        <input type="number" id="konig" max="1">
+        <label class="custom-checkbox-label">König Double?
+            <input class="custom-checkbox" type="checkbox" id="konigCheckbox">
+        </label>
+    </div>
+
+    <div class="input-group">
+        <label for="queen">Queen</label>
+        <input type="number" id="queen" max="4">
+        <label class="custom-checkbox-label">Queen Double?
+            <input class="custom-checkbox" type="checkbox" id="queenCheckbox">
+        </label>
+    </div>
+
+    <div class="input-group">
+        <label for="latsch">Lutusch</label>
+        <input type="number" id="latsch" max="13">
+    </div>
+
+    <div class="input-group">
+        <label for="diamonds">Diemonds</label>
+        <input type="number" id="diamonds" max="13">
+    </div>
+
+    <p class="result"><span id="summe"> </span></p>
+    <button type="button" onclick="jawakerkomplex()">Berechnung</button>
+    <button style="margin-top: 5px" type="reset">Reset</button>
+
+    <div class="calculator-section">
+        <h3>Taschenrechner</h3>
+        <div class="input-group">
+            <label for="zahl1">Zahl 1:</label>
+            <input type="number" id="zahl1">
+        </div>
+
+        <div class="input-group">
+            <label for="zahl2">Zahl 2:</label>
+            <input type="number" id="zahl2">
+        </div>
+
+        <div class="input-group">
+            <label for="operator">Operator (+, -, *, /):</label>
+            <input type="text" id="operator">
+        </div>
+
+        <button type="button" onclick="taschenrechner()">Berechnen</button>
+        <p class="result"><span id="ergebnis"> </span></p>
+    </div>
+</form>
+</body>
+
+</html>
+
+<!--ALTER CODE-->
+<!--<!DOCTYPE html>-->
+<!--<html lang="de">-->
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--<script src="rechnung-trixKomplex.js"></script>-->
+<!--<script src="taschenrechner.js"></script>-->
+<!--<link rel="stylesheet" href="komlexStyle.css">-->
+
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Komplex Rechner</title>-->
+<!--</head>-->
+
+<!--<body>-->
+<!--<form id="rechnerForm">-->
+<!--    <h1>Komplex Rechner</h1>-->
+<!--    <label for="konig">König</label>-->
+<!--    <input type="number" id="konig" max="1">-->
+<!--    <label class="po">König Double? <input class="custom-checkbox" type="checkbox" id="konigCheckbox"></label>-->
+
+<!--    <br>-->
+<!--    <label for="queen">Queen</label>-->
+<!--    <input type="number" id="queen" max="4">-->
+<!--    <label class="po">Queen Double? <input class="custom-checkbox" type="checkbox" id="queenCheckbox"></label>-->
+
+<!--    <br>-->
+
+<!--    <label for="latsch">Lutusch</label>-->
+<!--    <input type="number" id="latsch" max="13">-->
+<!--    <br>-->
+<!--    <label for="diamonds"> Diemonds</label>-->
+<!--    <input type="number" id="diamonds" max="13">-->
+
+<!--    <p><span id="summe"> </span></p>-->
+<!--    <button type="button" onclick="jawakerkomplex()">Berechnung</button>-->
+
+<!--    <br>-->
+
+<!--    <h3>Taschenrechner</h3>-->
+<!--    <br>-->
+<!--    <label for="zahl1">Zahl 1:</label>-->
+<!--    <input type="number" id="zahl1">-->
+<!--    <br>-->
+<!--    <label for="zahl2">Zahl 2:</label>-->
+<!--    <input type="number" id="zahl2">-->
+<!--    <br>-->
+<!--    <label for="operator">Operator (+, -, *, /):</label>-->
+<!--    <input type="text" id="operator">-->
+<!--    <br>-->
+<!--    <button type="button" onclick="taschenrechner()">Berechnen</button>-->
+<!--    <p><span id="ergebnis"> </span></p>-->
+
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->

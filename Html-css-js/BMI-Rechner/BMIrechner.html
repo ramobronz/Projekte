@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI_Rechner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="authour" content="Mohammad">
+    <link rel="stylesheet" href="BMIrechner css.css">
+    <script src="BMI-Rechner.JS.js"></script>
+</head>
+<body>
+<h1> Body-Mass-index-Rechner </h1>
+<h2> Online-BMI-Berechnung für Erwachsene </h2>
+
+<img src="Bilder/unnamed.png" alt="Waage" height="250" width="250"/>
+<p>Einen BMI Rechner für Kinder finden Sie hier: <a href="https://gamma.app/" target="_blank">BZgA-BMI-Rechner für
+    Kinder</a></p>
+<div class="Körpergroesse">
+    <p>Bitte geben Sie Ihre Körpergröße ein: </p>
+
+    <label for="cm">Körpergröße in cm:</label>
+    <input type="number" id="cm">
+
+    <p>Bitte geben Sie Ihr Körpergewicht ein: </p>
+    <label for="kg">Körpergewicht in kg: </label>
+    <input id="kg" type="number">
+    <br>
+
+    <button style="margin-top: 1em" type="button" onclick="berechneBMI()">berechnen</button>
+    <output id="bmiResult"></output>
+
+</div>
+<h2> Bedeutung des BMI-Wertes bei Erwchsenen: </h2>
+
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>BMI-Wert</th>
+            <th>Bedeutung</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>unter 18,5</td>
+            <td>Untergewicht</td>
+        </tr>
+        <tr>
+            <td>18,5 - 24,9</td>
+            <td>Normalgewicht</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>25 - 29,9</td>
+            <td>Übergewicht</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>ab 30</td>
+            <td>Adipositas</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

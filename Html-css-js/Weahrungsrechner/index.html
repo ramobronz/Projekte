@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+    <title>Währungsumrechner</title>
+  </head>
+  <body>
+    <h1>Währungsumrechner</h1>
+    <!-- Beispielbild: Ändere die URL entsprechend deiner Anforderungen -->
+    <img
+      src="https://img.freepik.com/vektoren-kostenlos/benutzer-mobiler-banken-die-geld-ueberweisen-waehrungsumrechnung-kleine-leute-online-zahlung-karikaturillustration_74855-14454.jpg"
+      alt="Währungsumrechner Bild"
+      style="width: 300px; height: auto"
+    />
+
+    <div class="converter">
+      <input type="number" id="amount" placeholder="Betrag eingeben" />
+      <select id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+      </select>
+      <span>in</span>
+      <select id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+      </select>
+      <button onclick="convertCurrency()">Umrechnen</button>
+      <button type="reset">Zurücksetzen</button>
+    </div>
+    <div class="result" id="result"></div>
+    
+  </body>
+</html>

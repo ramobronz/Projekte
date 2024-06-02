@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 1.2em; color: white;
+    background: linear-gradient(180deg, blueviolet 0%, #8bb9fe 100%);
+    background-repeat: no-repeat;
+}
+.foto{
+    background: url(../../Fotos/PartyNight.jpg);
+    background-size: contain;
+    background-position: left;
+}
+img {
+    border-radius: 50px;
+    object-fit: cover;
+    width: 100px;
+    height: 150px;
+    float: right;
+}
+p1{
+    font-size: 1.5em;
+    color: white;
+}
+table, p2, h3{
+    color: black;
+}
+th{
+    padding-right: 200px;
+}
+a{
+    color: blue;
+}
